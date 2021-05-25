@@ -16,7 +16,7 @@ public class EsClientConfig {
     public RestHighLevelClient restHighLevelClient(){
         RestHighLevelClient client = new RestHighLevelClient(
                 RestClient.builder(
-                        new HttpHost("localhost", 9200, "http")
+                        new HttpHost("mnrui.top", 9200, "http")
 //                        new HttpHost("localhost", 9201, "http")) // 如果是集群就配置多个
         ));
         return client;

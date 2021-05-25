@@ -87,7 +87,7 @@ public class ContentService {
     }
 
     /**
-     * 搜索 es 中的数据
+     * 高亮搜索
      * @param keywords 搜索关键字
      * @return
      */
